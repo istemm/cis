@@ -1,1 +1,1 @@
-# senai-cear-
+# senai-ceara
