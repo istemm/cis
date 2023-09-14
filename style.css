@@ -1,0 +1,130 @@
+/* Style Settings */
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css');
+:root {
+    --bgColor:#1C1C1C;
+    --accentColor: #E6E6E6;
+    --font: 'Karla', sans-serif;
+    --firstName: 'John';
+    --lastName: 'Doe';
+}
+
+body{
+    background:linear-gradient(
+        rgba(0,0,0,.5),rgba(0,0,0,.5    )
+      ),url(img/bckg.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    white-space: normal !important;
+    margin:2rem
+}
+
+.modal-dialog {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.modal-body {
+position:relative;
+padding:0px;
+}
+.btn-close {
+position:absolute;
+right:-30px;
+top:0;
+}
+
+button {
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #2ba8fb;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    width: 550px;
+  }
+  
+  button:hover {
+    background-color: #6fc5ff;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+  }
+  
+  button:active {
+    background-color: #3d94cf;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+  }
+
+
+#userPhoto{
+    width: 110px;
+    height: 110px;
+    display: block;
+    margin: 35px auto 20px;
+    border-radius: 50%;
+    white-space: normal !important;
+}
+
+#userName{
+    color: #bbb;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.25;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    white-space: normal !important;
+}
+
+#links{
+
+    max-width: 675px;
+    width: auto;
+    display: block;
+    margin: 27px auto;
+    border-radius: 63px;
+    background: linear-gradient(145deg, #e3e3e3, #bfbfbf);
+    box-shadow:  33px 33px 66px #777777,
+                -33px -33px 66px #ffffff;
+}
+
+h4{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #E6E6E6;
+    font-family: var(--font);
+    font-style: italic;;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #E6E6E6;
+    font-family: var(--font);
+
+}
+h3{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #E6E6E6;
+    font-family: var(--font);
+
+}
+.atrib{
+    text-align: center;
+    display: block;
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: rgb(136, 136, 136);
+    font-family: var(--font);
+    margin-bottom: 20px;
+    padding: 17px;
+}
